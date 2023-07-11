@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .welcome {
+    flex-grow: 1;
+    text-align:left ;
+    margin-left:49px;
+    font-family: 'Satisfy', cursive;
+  }
+  
+  .search-form {
+    display: flex;
+    align-items: center;
+    width: 294px;
+    position: relative;
+}
+  
+  input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+  }
+  
+  .search-button {
+    padding: 7px;
+    width: 32px;
+    background-color: #555555;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    right: 38px;
+  }
+  
+  .search-button:hover {
+    background-color: #333333;
+  }
+  
+  .cart-icon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .cart-item-count {
+    background-color: #ff0000;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 50%;
+    margin-left: 5px;
+  }
+  
